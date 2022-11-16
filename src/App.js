@@ -10,33 +10,33 @@ function App() {
             <div class="user-details">
               <div class="input-box">
                 <span class="details">Full Name</span>
-                <input type="text" placeholder="Enter your name" required>
+                <input type="text" placeholder="Enter your name" />
               </div>
               <div class="input-box">
                 <span class="details">Username</span>
-                <input type="text" placeholder="Enter your username" required>
+                <input type="text" placeholder="Enter your username" />
               </div>
               <div class="input-box">
                 <span class="details">Email</span>
-                <input type="text" placeholder="Enter your email" required>
+                <input type="text" placeholder="Enter your email" />
               </div>
               <div class="input-box">
                 <span class="details">Phone Number</span>
-                <input type="text" placeholder="Enter your number" required>
+                <input type="text" placeholder="Enter your number" />
               </div>
               <div class="input-box">
                 <span class="details">Password</span>
-                <input type="text" placeholder="Enter your password" required>
+                <input type="text" placeholder="Enter your password" />
               </div>
               <div class="input-box">
                 <span class="details">Confirm Password</span>
-                <input type="text" placeholder="Confirm your password" required>
+                <input type="text" placeholder="Confirm your password" />
               </div>
             </div>
             <div class="gender-details">
-              <input type="radio" name="gender" id="dot-1">
-                <input type="radio" name="gender" id="dot-2">
-                  <input type="radio" name="gender" id="dot-3">
+              <input type="radio" name="gender" id="dot-1" />
+                <input type="radio" name="gender" id="dot-2" />
+                  <input type="radio" name="gender" id="dot-3" />
                     <span class="gender-title">Gender</span>
                     <div class="category">
                       <label for="dot-1">
@@ -54,7 +54,7 @@ function App() {
                     </div>
                   </div>
                   <div class="button">
-                    <input type="submit" value="Register">
+                    <input type="submit" value="Register" />
                   </div>
                 </form>
             </div>
