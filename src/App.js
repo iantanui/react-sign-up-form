@@ -59,7 +59,7 @@ function App() {
               </div>
             </div>
             <div class="button">
-              <input type="submit" value="Sign Up" />
+              <button type="submit">Sign Up</button>
             </div>
           </form>
 
