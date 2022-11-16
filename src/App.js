@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div class="container">
-        <div class="title">Registration</div>
+        <div class="title">Sign Up</div>
         <div class="content">
           <form action="#">
             <div class="user-details">
