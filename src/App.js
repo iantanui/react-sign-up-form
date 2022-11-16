@@ -8,59 +8,76 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div class="title">Sign Up</div>
+        <div className="title">Sign Up</div>
         <div class="content">
 
           <form onSubmit={handleSubmit} action="#">
-            <div class="user-details">
-              <div class="input-box">
-                <span class="details">Full Name</span>
+
+            <div className="user-details">
+
+              <div className="input-box">
+                <span className="details">Full Name</span>
                 <input type="text" placeholder="Enter your name" />
               </div>
-              <div class="input-box">
-                <span class="details">Username</span>
+
+              <div className="input-box">
+                <span className="details">Username</span>
                 <input type="text" placeholder="Enter your username" />
               </div>
-              <div class="input-box">
-                <span class="details">Email</span>
+
+              <div className="input-box">
+                <span className="details">Email</span>
                 <input type="text" placeholder="Enter your email" />
               </div>
-              <div class="input-box">
-                <span class="details">Phone Number</span>
+
+              <div className="input-box">
+                <span className="details">Phone Number</span>
                 <input type="text" placeholder="Enter your number" />
               </div>
-              <div class="input-box">
-                <span class="details">Password</span>
+
+              <div className="input-box">
+                <span className="details">Password</span>
                 <input type="text" placeholder="Enter your password" />
               </div>
-              <div class="input-box">
-                <span class="details">Confirm Password</span>
+
+              <div className="input-box">
+                <span className="details">Confirm Password</span>
                 <input type="text" placeholder="Confirm your password" />
               </div>
+
             </div>
-            <div class="gender-details">
+
+            <div className="gender-details">
+
               <input type="radio" name="gender" id="dot-1" />
               <input type="radio" name="gender" id="dot-2" />
               <input type="radio" name="gender" id="dot-3" />
-              <span class="gender-title">Gender</span>
-              <div class="category">
+              <span className="gender-title">Gender</span>
+
+              <div className="category">
+
                 <label for="dot-1">
-                  <span class="dot one"></span>
-                  <span class="gender">Male</span>
+                  <span className="dot one"></span>
+                  <span className="gender">Male</span>
                 </label>
+
                 <label for="dot-2">
-                  <span class="dot two"></span>
-                  <span class="gender">Female</span>
+                  <span className="dot two"></span>
+                  <span className="gender">Female</span>
                 </label>
+
                 <label for="dot-3">
-                  <span class="dot three"></span>
-                  <span class="gender">Prefer not to say</span>
+                  <span className="dot three"></span>
+                  <span className="gender">Prefer not to say</span>
                 </label>
+
               </div>
             </div>
-            <div class="button">
+
+            <div className="button">
               <button type="submit">Sign Up</button>
             </div>
+            
           </form>
 
         </div>
