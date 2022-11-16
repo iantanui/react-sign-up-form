@@ -1,13 +1,17 @@
 import './App.css';
 
 function App() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log('You signed up');
+  }
   return (
     <div className="App">
       <div className="container">
         <div class="title">Sign Up</div>
         <div class="content">
 
-          <form action="#">
+          <form onSubmit={handleSubmit} action="#">
             <div class="user-details">
               <div class="input-box">
                 <span class="details">Full Name</span>
